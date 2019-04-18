@@ -1,4 +1,7 @@
-//OHD
+
+
+//testOHD
+
 
 public class OHD{
     private boolean rear;                      //rear sensor > 5cm from object
@@ -14,7 +17,7 @@ public class OHD{
     boolean[] dataIAD2 = new boolean[2];       //data from second IAD
     boolean[] dataIAD3 = new boolean[2];       //data from third IAD
 
-    //Initialize OHD, connect with 3 IAD
+    //Initialize testOHD, connect with 3 IAD
     public void initialize(IAD iad_1, IAD iad_2, IAD iad_3){
         rear     = false;
         left     = false;
@@ -31,7 +34,7 @@ public class OHD{
         iad3 = iad_3;
     }
 
-    //Execute OHD
+    //Execute testOHD
     public void execute(){
         readDataFromAllIAD();
     }

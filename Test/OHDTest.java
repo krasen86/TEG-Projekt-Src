@@ -10,7 +10,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class OHDTest {
 
-    OHD ohd = new OHD ();
+    OHD ohd;
     boolean[] array1 = new boolean[1];
     boolean[] array2 = new boolean[2];
     boolean[] array3 = new boolean[2];
@@ -22,16 +22,22 @@ class OHDTest {
     boolean forwardL;
     boolean forwardR;
 
-
-    @Test
-    void initializeTestTheValues() {
-
-        ohd.initialize (iad , iad, iad);
+    @BeforeEach
+    void setupOhd(){
         rear     = false;
         left     = false;
         right    = false;
         forwardL = false;
         forwardR = false;
+        ohd = new OHD();
+    }
+
+
+    @Test
+    void initializeTestTheValues() {
+
+        ohd.initialize (iad , iad, iad);
+
         arrayOutput[0] = rear;
         arrayOutput[1] = left;
         arrayOutput[2] = forwardL;

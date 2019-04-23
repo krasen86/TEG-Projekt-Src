@@ -14,6 +14,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/TEG_Projekt_Src$OHDTest_initializeTestTheValues.ic" NAME="OHDTest.initializeTestTheValues Coverage Results" MODIFIED="1556021421212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/TEG_Projekt_Src$OHDTest.ic" NAME="OHDTest Coverage Results" MODIFIED="1556023960643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="CoverageViewManager">
     <option name="myElementSize" value="147" />
@@ -42,7 +43,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Test/IADTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
+            <state relative-caret-position="238">
               <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
             </state>
           </provider>
@@ -51,7 +52,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/IAD.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="496">
+            <state relative-caret-position="343">
               <caret line="42" column="21" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
               <folding>
                 <element signature="e#969#970#0" expanded="true" />
@@ -64,8 +65,21 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Test/OHDTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="30" column="25" lean-forward="true" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+            <state relative-caret-position="425">
+              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/OHD.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+              <folding>
+                <element signature="e#2018#2019#0" expanded="true" />
+                <element signature="e#2047#2048#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -176,7 +190,7 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556023052449" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556023957319" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -299,22 +313,17 @@
       <option name="project" value="LOCAL" />
       <updated>1555413634984</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Update OHD test structure.">
+      <created>1556023124785</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1556023124785</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="OHDTest_initializeTestTheValues - 2019.04.18 at 11h 27m 57s.xml">
-      <configuration name="OHDTest.initializeTestTheValues" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OHDTest - 2019.04.23 at 14h 10m 00s.xml">
-      <configuration name="OHDTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OHDTest_initializeTestTheValues - 2019.04.23 at 14h 10m 26s.xml">
-      <configuration name="OHDTest.initializeTestTheValues" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OHDTest - 2019.04.23 at 14h 17m 25s.xml">
-      <configuration name="OHDTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="OHDTest - 2019.04.23 at 14h 18m 13s.xml">
       <configuration name="OHDTest" configurationId="JUnit" />
     </history-entry>
@@ -333,6 +342,18 @@
     <history-entry file="OHDTest - 2019.04.23 at 14h 31m 31s.xml">
       <configuration name="OHDTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="OHDTest - 2019.04.23 at 14h 35m 44s.xml">
+      <configuration name="OHDTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OHDTest - 2019.04.23 at 14h 36m 06s.xml">
+      <configuration name="OHDTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OHDTest - 2019.04.23 at 14h 45m 47s.xml">
+      <configuration name="OHDTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OHDTest - 2019.04.23 at 14h 49m 41s.xml">
+      <configuration name="OHDTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-66" y="-808" width="1296" height="776" extended-state="6" />
@@ -347,7 +368,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49959645" weight="0.4867807" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49959645" weight="0.30948678" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.59097975" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -405,7 +426,8 @@
     <MESSAGE value="Junit5" />
     <MESSAGE value="Junit5 Test Cases in the test filles" />
     <MESSAGE value="Version 1.1-Update from the development team" />
-    <option name="LAST_COMMIT_MESSAGE" value="Version 1.1-Update from the development team" />
+    <MESSAGE value="Update OHD test structure." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update OHD test structure." />
   </component>
   <component name="atlassian-ide-plugin-workspace-issues">
     <option name="view">
@@ -428,13 +450,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/OHD.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -533,9 +548,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Test/IADTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/IAD.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
+        <state relative-caret-position="343">
           <caret line="42" column="21" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
           <folding>
             <element signature="e#969#970#0" expanded="true" />
@@ -544,17 +566,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Test/IADTest.java">
+    <entry file="file://$PROJECT_DIR$/src/OHD.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        <state>
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+          <folding>
+            <element signature="e#2018#2019#0" expanded="true" />
+            <element signature="e#2047#2048#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Test/OHDTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="30" column="25" lean-forward="true" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+        <state relative-caret-position="425">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
         </state>
       </provider>
     </entry>

@@ -22,8 +22,8 @@ class OHDTest {
     boolean forwardL;
     boolean forwardR;
 
-    @BeforeEach
-    void setupOhd(){
+    //@BeforeEach
+    void initializeWithAllFalseArrayDataTest(){
         rear     = false;
         left     = false;
         right    = false;
@@ -34,8 +34,8 @@ class OHDTest {
 
 
     @Test
-    void initializeTestTheValues() {
-
+    void arrayOutputValidator() {
+        initializeWithAllFalseArrayDataTest();
         ohd.initialize (iad , iad, iad);
 
         arrayOutput[0] = rear;

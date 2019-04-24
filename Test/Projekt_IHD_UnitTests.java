@@ -67,8 +67,8 @@ public class Projekt_IHD_UnitTests {
     public void setUp() {
         if(verbose == true) { System.out.println("Testing: Projekt_testIHD");}
         textOutput = new ArrayList();
-        testIHD = new IHD();
-        testSensor = new Sensor();
+        testIHD = new IHD ();
+        testSensor = new Sensor ();
     }
 
     //@AfterMethod

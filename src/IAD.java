@@ -1,7 +1,4 @@
-
 //IAD
-
-
 
 public class IAD {
     private int input1;      //input from first IHD
@@ -41,8 +38,9 @@ public class IAD {
 
     //Analyze data from connected IHD(s) and set output-data
     private void analyzeData(){
-        input1 = ihd1.getRead1();
-        input2 = ihd2.getRead2();
+        input1 = ihd1.getOutput();
+        input2 = ihd2.getOutput();
+
         output1 = (input1 > IHD_limit);
         output2 = (input2 > IHD_limit);
     }

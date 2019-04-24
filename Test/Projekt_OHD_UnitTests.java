@@ -1,3 +1,6 @@
+
+
+
 //Tabell 5: krav på testOHD.
 //
 //testOHD_001 Input independence
@@ -10,7 +13,6 @@
 // True, True
 // False , True
 // True, False
-
 
 
 
@@ -27,7 +29,7 @@ public class Projekt_OHD_UnitTests {
 
     private OHD testOHD;
 
-    private IAD testIAD = new IAD();
+    private IAD testIAD = new IAD ();
 
 
     // When this is set to true, test will give more information about the test executed
@@ -143,7 +145,7 @@ public class Projekt_OHD_UnitTests {
     public void setUp() {
         if(verbose == true) { System.out.println("Testing: Projekt_testOHD");}
         textOutput = new ArrayList();
-        testOHD = new OHD();
+        testOHD = new OHD ();
     }
 
     //@test

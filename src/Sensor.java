@@ -1,7 +1,4 @@
 //Sensor
-
-
-
 import java.util.Random; //to simulate static or disturbance in updateData(int input)
 
 public class Sensor {

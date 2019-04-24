@@ -58,7 +58,7 @@ public class Projekt_IAD_UnitTests {
     // @BeforeMethod
     public void setUp() {
         textOutput = new ArrayList();
-        tIAD = new IAD();
+        tIAD = new IAD ();
     }
 
     //@Test

@@ -96,6 +96,7 @@ class OHDTest {
 
 
     private boolean[] initializeArrayExpectedOutput (boolean[] output) {
+
         rear     = array1[0];
         left     = array2[0];
         forwardL = array2[1];

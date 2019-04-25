@@ -17,6 +17,8 @@ class IADTest {
 
 // These two first test compares two iad objects, the first object is initialized with initialize method, the second
     // is initialized locally in the test with the concstructor, and we check that their values are the same.
+
+
     @Test
     void initialize_testingInitializeMethodTwoSensor_expectFalse() {
         iad.initialize(ihd1, ihd2);
@@ -27,21 +29,21 @@ class IADTest {
     }
 
     @Test
-    void initialize_testingDefaultConstructorGivesNull_expectNull() {
-
-        IAD iad2 = new IAD();
-
-
-        assertNull(iad2.getIhd1());
-    }
-
-
-    @Test
     void initialize_testingInitializeMethodTOneSensor_expectFalse() {
         iad.initialize(ihd1);
         IAD iad2 = new IAD(ihd1, ihd1, 0, 0, false, false, 5);
 
         assertEquals(iad2, iad);
+    }
+
+
+    //Testing default constructor for full coverage
+    @Test
+    void initialize_testingDefaultConstructorGivesNull_expectNull() {
+
+        IAD iad2 = new IAD();
+
+        assertNull(iad2.getIhd1());
     }
 
 

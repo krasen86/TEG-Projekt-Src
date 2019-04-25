@@ -95,7 +95,7 @@ public class Projekt_IHD_UnitTests {
 
         actual[0] = testIHD.getRead1();
         actual[1] = testIHD.getRead2();
-        actual[2] = testIHD.getMean();
+      //  actual[2] = testIHD.getMean();
         actual[3] = IHD.outputToSensor;
 
 

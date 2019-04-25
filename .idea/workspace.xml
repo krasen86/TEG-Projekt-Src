@@ -2,17 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25c62636-ddae-4dcb-8625-0a29bcb98d62" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/MockManager.db" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MockManager.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TEG Projekt Src.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TEG Projekt Src.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/GitHolger.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/GitHolger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/Projekt_IAD_UnitTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Projekt_IAD_UnitTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/OHDTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/OHDTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test/Projekt_IHD_UnitTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Projekt_IHD_UnitTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/Projekt_OHD_UnitTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Projekt_OHD_UnitTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/UnitTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/UnitTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/OHD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OHD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sensor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sensor.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,24 +17,18 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="147" />
+    <option name="myElementSize" value="138" />
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/OHD.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1020">
-              <caret line="60" selection-start-line="60" selection-end-line="60" />
-              <folding>
-                <element signature="e#1417#1418#0" expanded="true" />
-                <element signature="e#1453#1454#0" expanded="true" />
-                <element signature="e#2003#2004#0" expanded="true" />
-                <element signature="e#2032#2033#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="189">
+              <caret line="43" column="34" lean-forward="true" selection-start-line="41" selection-start-column="8" selection-end-line="43" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -47,20 +36,21 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/IHD.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Sensor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
-              <caret line="46" selection-start-line="46" selection-end-line="46" />
+            <state relative-caret-position="306">
+              <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
               <folding>
-                <element signature="e#467#468#0" expanded="true" />
-                <element signature="e#506#507#0" expanded="true" />
+                <element signature="e#1085#1086#0" expanded="true" />
+                <element signature="e#1112#1113#0" expanded="true" />
+                <element signature="e#1190#1191#0" expanded="true" />
+                <element signature="e#1235#1236#0" expanded="true" />
+                <element signature="e#1316#1317#0" expanded="true" />
+                <element signature="e#1361#1362#0" expanded="true" />
+                <element signature="e#1440#1441#0" expanded="true" />
+                <element signature="e#1485#1486#0" expanded="true" />
+                <element signature="e#1934#1935#0" expanded="true" />
+                <element signature="e#1962#1963#0" expanded="true" />
+                <element signature="e#1989#1990#0" expanded="true" />
+                <element signature="e#2017#2018#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -69,8 +59,24 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/IAD.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
+            <state relative-caret-position="272">
+              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+              <folding>
+                <element signature="e#966#967#0" expanded="true" />
+                <element signature="e#1000#1001#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Test/OHDTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="82" column="43" selection-start-line="82" selection-start-column="43" selection-end-line="82" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -93,21 +99,27 @@
       <list>
         <option value="$PROJECT_DIR$/Test/IADTest.java" />
         <option value="$PROJECT_DIR$/Test/IHDTest.java" />
-        <option value="$PROJECT_DIR$/src/IAD.java" />
-        <option value="$PROJECT_DIR$/Test/OHDTest.java" />
         <option value="$PROJECT_DIR$/Test/Projekt_IAD_UnitTests.java" />
         <option value="$PROJECT_DIR$/Test/UnitTests.java" />
         <option value="$PROJECT_DIR$/Test/Projekt_OHD_UnitTests.java" />
-        <option value="$PROJECT_DIR$/Test/Projekt_IHD_UnitTests.java" />
-        <option value="$PROJECT_DIR$/src/IHD.java" />
         <option value="$PROJECT_DIR$/src/Sensor.java" />
+        <option value="$PROJECT_DIR$/src/IHD.java" />
+        <option value="$PROJECT_DIR$/src/IAD.java" />
+        <option value="$PROJECT_DIR$/Test/Projekt_IHD_UnitTests.java" />
         <option value="$PROJECT_DIR$/src/OHD.java" />
+        <option value="$PROJECT_DIR$/Test/OHDTest.java" />
       </list>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-48" />
-    <option name="y" value="21" />
+    <option name="x" value="33" />
+    <option name="y" value="69" />
     <option name="width" value="984" />
     <option name="height" value="852" />
   </component>
@@ -116,31 +128,7 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="TEG-Projekt-Src" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TEG-Projekt-Src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TEG-Projekt-Src" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TEG-Projekt-Src" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TEG-Projekt-Src" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TEG-Projekt-Src" type="462c0819:PsiDirectoryNode" />
-              <item name="Test" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
@@ -179,7 +167,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GitHolger">
+  <component name="RunManager" selected="JUnit.OHDTest.arrayOutputValidator">
     <configuration name="GitHolger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GitHolger" />
       <module name="TEG Projekt Src" />
@@ -187,31 +175,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+    <configuration name="OHDTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TEG Projekt Src" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="OHDTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OHDTest.initialize" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OHDTest.arrayOutputValidator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TEG Projekt Src" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="OHDTest" />
-      <option name="METHOD_NAME" value="initialize" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OHDTest.initializeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TEG Projekt Src" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="OHDTest" />
-      <option name="METHOD_NAME" value="initializeTest" />
+      <option name="METHOD_NAME" value="arrayOutputValidator" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -227,12 +204,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OHDTest.readDataFromAllIAD" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TEG Projekt Src" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="OHDTest" />
+      <option name="METHOD_NAME" value="readDataFromAllIAD" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.OHDTest.arrayOutputValidator" />
+        <item itemvalue="JUnit.OHDTest.readDataFromAllIAD" />
+        <item itemvalue="JUnit.OHDTest" />
         <item itemvalue="Application.GitHolger" />
         <item itemvalue="JUnit.OHDTest.initializeTestTheValues" />
-        <item itemvalue="JUnit.OHDTest.initializeTest" />
-        <item itemvalue="JUnit.OHDTest.initialize" />
       </list>
     </recent_temporary>
   </component>
@@ -275,40 +263,61 @@
       <option name="project" value="LOCAL" />
       <updated>1555413634984</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Uppdate version 0.4">
+      <created>1556089666562</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1556089666562</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="OHDTest_initialize - 2019.04.18 at 11h 06m 35s.xml">
-      <configuration name="OHDTest.initialize" configurationId="JUnit" />
+    <history-entry file="OHDTest_arrayOutputValidator - 2019.04.24 at 19h 04m 44s.xml">
+      <configuration name="OHDTest.arrayOutputValidator" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OHDTest_initialize - 2019.04.18 at 11h 07m 02s.xml">
-      <configuration name="OHDTest.initialize" configurationId="JUnit" />
+    <history-entry file="OHDTest_arrayOutputValidator - 2019.04.24 at 19h 05m 10s.xml">
+      <configuration name="OHDTest.arrayOutputValidator" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OHDTest_initializeTest - 2019.04.18 at 11h 08m 18s.xml">
-      <configuration name="OHDTest.initializeTest" configurationId="JUnit" />
+    <history-entry file="OHDTest_arrayOutputValidator - 2019.04.24 at 19h 12m 12s.xml">
+      <configuration name="OHDTest.arrayOutputValidator" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OHDTest_initializeTestTheValues - 2019.04.18 at 11h 13m 50s.xml">
-      <configuration name="OHDTest.initializeTestTheValues" configurationId="JUnit" />
+    <history-entry file="OHDTest_arrayOutputValidator - 2019.04.24 at 19h 31m 36s.xml">
+      <configuration name="OHDTest.arrayOutputValidator" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OHDTest_initializeTestTheValues - 2019.04.18 at 11h 14m 01s.xml">
-      <configuration name="OHDTest.initializeTestTheValues" configurationId="JUnit" />
+    <history-entry file="OHDTest_arrayOutputValidator - 2019.04.24 at 19h 32m 52s.xml">
+      <configuration name="OHDTest.arrayOutputValidator" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OHDTest_initializeTestTheValues - 2019.04.18 at 11h 15m 10s.xml">
-      <configuration name="OHDTest.initializeTestTheValues" configurationId="JUnit" />
+    <history-entry file="OHDTest_arrayOutputValidator - 2019.04.24 at 19h 41m 07s.xml">
+      <configuration name="OHDTest.arrayOutputValidator" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OHDTest_initializeTestTheValues - 2019.04.18 at 11h 21m 33s.xml">
-      <configuration name="OHDTest.initializeTestTheValues" configurationId="JUnit" />
+    <history-entry file="OHDTest_arrayOutputValidator - 2019.04.24 at 19h 43m 33s.xml">
+      <configuration name="OHDTest.arrayOutputValidator" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OHDTest_initializeTestTheValues - 2019.04.18 at 11h 27m 57s.xml">
-      <configuration name="OHDTest.initializeTestTheValues" configurationId="JUnit" />
+    <history-entry file="OHDTest_arrayOutputValidator - 2019.04.24 at 19h 44m 25s.xml">
+      <configuration name="OHDTest.arrayOutputValidator" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="OHDTest_arrayOutputValidator - 2019.04.24 at 19h 49m 06s.xml">
+      <configuration name="OHDTest.arrayOutputValidator" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OHDTest_arrayOutputValidator - 2019.04.24 at 19h 50m 38s.xml">
+      <configuration name="OHDTest.arrayOutputValidator" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18270008" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24737267" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -317,29 +326,29 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49959645" visible="true" weight="0.11764706" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49959645" weight="0.6268382" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39889705" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3290441" />
       <window_info anchor="bottom" id="Atlassian " order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3290441" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5004035" side_tool="true" weight="0.3290441" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.3290441" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3290441" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.3292978" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Mock Manager" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32768363" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.31638417" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27970898" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24778047" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -348,21 +357,21 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49959645" visible="true" weight="0.11764706" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49959645" weight="0.84375" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3290441" />
       <window_info anchor="bottom" id="Atlassian " order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5004035" side_tool="true" weight="0.3290441" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.3290441" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3290441" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.3292978" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Mock Manager" order="7" />
@@ -375,7 +384,8 @@
     <MESSAGE value="Junit5" />
     <MESSAGE value="Junit5 Test Cases in the test filles" />
     <MESSAGE value="Version 1.1-Update from the development team" />
-    <option name="LAST_COMMIT_MESSAGE" value="Version 1.1-Update from the development team" />
+    <MESSAGE value="Uppdate version 0.4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Uppdate version 0.4" />
   </component>
   <component name="atlassian-ide-plugin-workspace-issues">
     <option name="view">
@@ -387,6 +397,7 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/TEG_Projekt_Src$OHDTest_initialize.ic" NAME="OHDTest.initialize Coverage Results" MODIFIED="1555578417879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/TEG_Projekt_Src$OHDTest_initializeTestTheValues.ic" NAME="OHDTest.initializeTestTheValues Coverage Results" MODIFIED="1555579673300" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/TEG_Projekt_Src$OHDTest_arrayOutputValidator.ic" NAME="OHDTest.arrayOutputValidator Coverage Results" MODIFIED="1556127168898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/TEG_Projekt_Src$OHDTest_initializeTest.ic" NAME="OHDTest.initializeTest Coverage Results" MODIFIED="1555578494269" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
@@ -440,41 +451,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Test/OHDTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="43" column="31" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Test/Projekt_IHD_UnitTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/IHD.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/IAD.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Sensor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        <state>
           <folding>
             <element signature="e#467#468#0" expanded="true" />
             <element signature="e#506#507#0" expanded="true" />
@@ -482,15 +461,86 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Test/Projekt_IHD_UnitTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-engine/1.4.2/junit-platform-engine-1.4.2.jar!/org/junit/platform/engine/support/hierarchical/NodeTestTask.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="125" selection-start-line="125" selection-end-line="125" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-engine/1.4.2/junit-platform-engine-1.4.2.jar!/org/junit/platform/engine/support/hierarchical/ThrowableCollector.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-engine/5.4.2/junit-jupiter-engine-5.4.2.jar!/org/junit/jupiter/engine/descriptor/TestMethodTestDescriptor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="98" selection-start-line="98" selection-end-line="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.4.2/junit-platform-commons-1.4.2.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="297" selection-start-line="297" selection-end-line="297" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IHD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+          <folding>
+            <element signature="e#1085#1086#0" expanded="true" />
+            <element signature="e#1112#1113#0" expanded="true" />
+            <element signature="e#1190#1191#0" expanded="true" />
+            <element signature="e#1235#1236#0" expanded="true" />
+            <element signature="e#1316#1317#0" expanded="true" />
+            <element signature="e#1361#1362#0" expanded="true" />
+            <element signature="e#1440#1441#0" expanded="true" />
+            <element signature="e#1485#1486#0" expanded="true" />
+            <element signature="e#1934#1935#0" expanded="true" />
+            <element signature="e#1962#1963#0" expanded="true" />
+            <element signature="e#1989#1990#0" expanded="true" />
+            <element signature="e#2017#2018#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IAD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <element signature="e#966#967#0" expanded="true" />
+            <element signature="e#1000#1001#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/OHD.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="60" selection-start-line="60" selection-end-line="60" />
+        <state relative-caret-position="189">
+          <caret line="43" column="34" lean-forward="true" selection-start-line="41" selection-start-column="8" selection-end-line="43" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/OHDTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="82" column="43" selection-start-line="82" selection-start-column="43" selection-end-line="82" selection-end-column="43" />
           <folding>
-            <element signature="e#1417#1418#0" expanded="true" />
-            <element signature="e#1453#1454#0" expanded="true" />
-            <element signature="e#2003#2004#0" expanded="true" />
-            <element signature="e#2032#2033#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

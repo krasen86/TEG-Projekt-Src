@@ -11,4 +11,12 @@ class SensorTest {
     @Test
     void updateData() {
     }
+
+    @Test
+    void updateStatus1() {
+    }
+
+    @Test
+    void updateData1() {
+    }
 }

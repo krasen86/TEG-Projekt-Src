@@ -27,7 +27,7 @@ public class IHD {
     }
 
     //Calculate mean
-    private int mean(int i1, int i2){
+    public int mean(int i1, int i2){
         mean = (i1+i2)/2;
         return mean;
     }

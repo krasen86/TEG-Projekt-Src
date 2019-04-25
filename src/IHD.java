@@ -24,11 +24,12 @@ public class IHD {
     public void execute(){
         this.listenToSensor();
         this.readFromSensor();
+        this.mean();
     }
 
     //Calculate mean
-    private int mean(int i1, int i2){
-        mean = (i1+i2)/2;
+    private int mean(){
+        mean = (read1+read2)/2;
         return mean;
     }
 

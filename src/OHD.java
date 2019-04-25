@@ -1,7 +1,6 @@
 //OHD
 
 public class OHD{
-
     private boolean rear;                      //rear sensor > 5cm from object
     private boolean left;                      //left sensor > 30cm from object
     private boolean right;                     //right sensor > 30cm from object

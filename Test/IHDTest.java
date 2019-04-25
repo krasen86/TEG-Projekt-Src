@@ -188,7 +188,7 @@ public class IHDTest {
 //        sensor.originalOutput = 149;
 //        sensor.safetyOutput= 56;
         ihd_test.execute();
-        assertEquals(101, ihd_test.mean(149,56));
+        assertEquals(102, ihd_test.mean(149,56));
 
     }
     @Test

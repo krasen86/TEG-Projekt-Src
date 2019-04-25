@@ -34,42 +34,42 @@ public class IHDTest {
         assertEquals(45, ihd.getRead2());
     }
 
-    @Test
-    void MeanIntegerSumEven() {
-        sensor_test.originalOutput= 149;
-        sensor_test.safetyOutput=59;
-        assertEquals(103,ihd.getMean());
-    }
-    @Test
-    void MeanIntegerSumOdd() {
-        sensor_test.originalOutput= 149;
-        sensor_test.safetyOutput=59;
-        assertEquals(103,ihd.getMean());
-    }
-    @Test
-    void MeanIntegerBoundaryBothOutputZero() {
-        sensor_test.originalOutput= 0;
-        sensor_test.safetyOutput=0;
-        assertEquals(0,ihd.getMean());
-    }
-
-    @Test
-    void MeanIntegerBoundaryBothOutput200() {
-        sensor_test.originalOutput= 200;
-        sensor_test.safetyOutput=200;
-        assertEquals(200,ihd.getMean());
-    }
-
-    @Test
-    void MeanIntegerBoundaryOneOutput200() {
-        sensor_test.originalOutput= 200;
-        sensor_test.safetyOutput=135;
-        assertEquals(167,ihd.getMean());
-    }
-    @Test
-    void MeanIntegerBoundaryOneOutputZero() {
-        sensor_test.originalOutput= 0;
-        sensor_test.safetyOutput=135;
-        assertEquals(67,ihd.getMean());
-    }
+//    @Test
+//    void MeanIntegerSumEven() {
+//        sensor_test.originalOutput= 149;
+//        sensor_test.safetyOutput=59;
+//        assertEquals(103,ihd.getMean());
+//    }
+//    @Test
+//    void MeanIntegerSumOdd() {
+//        sensor_test.originalOutput= 149;
+//        sensor_test.safetyOutput=59;
+//        assertEquals(103,ihd.getMean());
+//    }
+//    @Test
+//    void MeanIntegerBoundaryBothOutputZero() {
+//        sensor_test.originalOutput= 0;
+//        sensor_test.safetyOutput=0;
+//        assertEquals(0,ihd.getMean());
+//    }
+//
+//    @Test
+//    void MeanIntegerBoundaryBothOutput200() {
+//        sensor_test.originalOutput= 200;
+//        sensor_test.safetyOutput=200;
+//        assertEquals(200,ihd.getMean());
+//    }
+//
+//    @Test
+//    void MeanIntegerBoundaryOneOutput200() {
+//        sensor_test.originalOutput= 200;
+//        sensor_test.safetyOutput=135;
+//        assertEquals(167,ihd.getMean());
+//    }
+//    @Test
+//    void MeanIntegerBoundaryOneOutputZero() {
+//        sensor_test.originalOutput= 0;
+//        sensor_test.safetyOutput=135;
+//        assertEquals(67,ihd.getMean());
+//    }
 }

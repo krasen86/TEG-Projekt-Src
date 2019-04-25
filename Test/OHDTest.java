@@ -70,14 +70,22 @@ class OHDTest {
 
         initializeWithAllFalseArrayDataTest ();
         ohd.initialize (iad, iad, iad);
+        ohd.iad1 = Mockito.mock (IAD.class);
+        ohd.iad2 = Mockito.mock (IAD.class);
+        ohd.iad3 = Mockito.mock (IAD.class);
+        Mockito.when (ohd.iad1.getData ()).thenReturn (array1);
+        Mockito.when (ohd.iad2.getData ()).thenReturn (array2);
+        Mockito.when (ohd.iad3.getData ()).thenReturn (array3);
         ohd.execute ();
-        output = initializeArrayExpectedOutput(ohd.getOutput ());
         System.out.println ("Testing with All False array values.");
-        assertArrayEquals (arrayExpectedOutput, output);
+        assertArrayEquals (arrayExpectedOutput, ohd.getOutput ());
         System.out.println ("Test passed.");
 
         initializeWithAllTrueArrayDataTest ();
         ohd.initialize (iad, iad, iad);
+        ohd.iad1 = Mockito.mock (IAD.class);
+        ohd.iad2 = Mockito.mock (IAD.class);
+        ohd.iad3 = Mockito.mock (IAD.class);
         Mockito.when (ohd.iad1.getData ()).thenReturn (array1);
         Mockito.when (ohd.iad2.getData ()).thenReturn (array2);
         Mockito.when (ohd.iad3.getData ()).thenReturn (array3);
@@ -89,10 +97,16 @@ class OHDTest {
 
         initializeWithNormalArrayDataTest ();
         ohd.initialize (iad, iad, iad);
+        ohd.iad1 = Mockito.mock (IAD.class);
+        ohd.iad2 = Mockito.mock (IAD.class);
+        ohd.iad3 = Mockito.mock (IAD.class);
+        Mockito.when (ohd.iad1.getData ()).thenReturn (array1);
+        Mockito.when (ohd.iad2.getData ()).thenReturn (array2);
+        Mockito.when (ohd.iad3.getData ()).thenReturn (array3);
         ohd.execute ();
-        output = initializeArrayExpectedOutput (ohd.getOutput ());
+      //  output = initializeArrayExpectedOutput (ohd.getOutput ());
         System.out.println ("Testing with All Normal array values.");
-        assertArrayEquals (arrayExpectedOutput, output );
+        assertArrayEquals (arrayExpectedOutput, ohd.getOutput () );
         System.out.println ("Test passed.");
 
 
@@ -100,20 +114,20 @@ class OHDTest {
 
 
 
-    private boolean[] initializeArrayExpectedOutput (boolean[] output) {
-
-        rear     = array1[0];
-        left     = array2[0];
-        forwardL = array2[1];
-        right    = array3[0];
-        forwardR = array3[1];
-        output[0] = rear;
-        output[1] = left;
-        output[2] = forwardL;
-        output[3] = right;
-        output[4] = forwardR;
-        return output;
-    }
+//    private boolean[] initializeArrayExpectedOutput (boolean[] output) {
+//
+//        rear     = array1[0];
+//        left     = array2[0];
+//        forwardL = array2[1];
+//        right    = array3[0];
+//        forwardR = array3[1];
+//        output[0] = rear;
+//        output[1] = left;
+//        output[2] = forwardL;
+//        output[3] = right;
+//        output[4] = forwardR;
+//        return output;
+//    }
 
 
 }

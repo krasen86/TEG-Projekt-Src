@@ -3,6 +3,7 @@ import org.junit.jupiter.api.Test;
 import java.util.Arrays;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNull;
 import static org.mockito.Mockito.doReturn;
 import static org.mockito.Mockito.mock;
 
@@ -16,10 +17,13 @@ class IADTest {
 
 // These two first test compares two iad objects, the first object is initialized with initialize method, the second
     // is initialized locally in the test with the concstructor, and we check that their values are the same.
+
+
     @Test
     void initialize_testingInitializeMethodTwoSensor_expectFalse() {
         iad.initialize(ihd1, ihd2);
         IAD iad2 = new IAD(ihd1, ihd2, 0, 0, false, false, 30);
+
 
         assertEquals(iad2, iad);
     }
@@ -30,6 +34,16 @@ class IADTest {
         IAD iad2 = new IAD(ihd1, ihd1, 0, 0, false, false, 5);
 
         assertEquals(iad2, iad);
+    }
+
+
+    //Testing default constructor for full coverage
+    @Test
+    void initialize_testingDefaultConstructorGivesNull_expectNull() {
+
+        IAD iad2 = new IAD();
+
+        assertNull(iad2.getIhd1());
     }
 
 

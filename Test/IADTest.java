@@ -14,9 +14,17 @@ class IADTest {
 
 
     @Test
-    void initialize_testingInitializeMethod_expectFalse () {
+    void initialize_testingInitializeMethodTwoSensor_expectFalse () {
 iad.initialize(ihd1,ihd2);
 IAD iad2 = new IAD(ihd1,ihd2,0,0,false,false,30);
+
+        assertEquals(iad2,iad);
+    }
+
+    @Test
+    void initialize_testingInitializeMethodTOneSensor_expectFalse () {
+        iad.initialize(ihd1);
+        IAD iad2 = new IAD(ihd1,ihd1,0,0,false,false,5);
 
         assertEquals(iad2,iad);
     }
@@ -92,6 +100,8 @@ IAD iad2 = new IAD(ihd1,ihd2,0,0,false,false,30);
 
     @Test
     void analyzeData () {
+
+
     }
 
     @Test

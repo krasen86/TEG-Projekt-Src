@@ -1,16 +1,15 @@
 //OHD
 
 public class OHD{
-
     private boolean rear;                      //rear sensor > 5cm from object
     private boolean left;                      //left sensor > 30cm from object
     private boolean right;                     //right sensor > 30cm from object
     private boolean forwardL;                  //forwardL sensor > 30cm from object
     private boolean forwardR;                  //forwardR sensor > 30cm from object
     private boolean[] output = new boolean[5]; //output-data to external system
-    private IAD iad1;                          //first connected IAD
-    private IAD iad2;                          //second connected IAD
-    private IAD iad3;                          //third connected IAD
+    public IAD iad1;                          //first connected IAD
+    public IAD iad2;                          //second connected IAD
+    public IAD iad3;                          //third connected IAD
     boolean[] dataIAD1 = new boolean[2];       //data from first IAD
     boolean[] dataIAD2 = new boolean[2];       //data from second IAD
     boolean[] dataIAD3 = new boolean[2];       //data from third IAD
@@ -38,7 +37,7 @@ public class OHD{
     }
 
     //Read input-data and set output-data
-    private void readDataFromAllIAD(){
+    public void readDataFromAllIAD(){
         dataIAD1 = iad1.getData();
         dataIAD2 = iad2.getData();
         dataIAD3 = iad3.getData();

@@ -1,5 +1,7 @@
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
+import org.mockito.*;
+
 
 class OHDTest {
 
@@ -76,10 +78,13 @@ class OHDTest {
 
         initializeWithAllTrueArrayDataTest ();
         ohd.initialize (iad, iad, iad);
+        Mockito.when (ohd.iad1.getData ()).thenReturn (array1);
+        Mockito.when (ohd.iad2.getData ()).thenReturn (array2);
+        Mockito.when (ohd.iad3.getData ()).thenReturn (array3);
         ohd.execute ();
-        output = initializeArrayExpectedOutput (ohd.getOutput ());
+     //   output = initializeArrayExpectedOutput (ohd.getOutput ());
         System.out.println ("Testing with All True array values.");
-        assertArrayEquals (arrayExpectedOutput, output );
+        assertArrayEquals (arrayExpectedOutput, ohd.getOutput () );
         System.out.println ("Test passed.");
 
         initializeWithNormalArrayDataTest ();
@@ -96,6 +101,7 @@ class OHDTest {
 
 
     private boolean[] initializeArrayExpectedOutput (boolean[] output) {
+
         rear     = array1[0];
         left     = array2[0];
         forwardL = array2[1];

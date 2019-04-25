@@ -205,7 +205,7 @@ public class IHDTest {
         assertEquals(199, ihd_test.mean(199,200));
 
     }
-    @Test
+   @Test
     void sendOutput () {
         ihd_test.initialize(sensor);
 //        sensor.originalOutput = 38;

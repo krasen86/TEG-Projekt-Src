@@ -194,8 +194,6 @@ public class IHDTest {
     @Test
     void integerAverageBoundariesResult () {
         ihd_test.initialize(sensor);
-        // sensor.originalOutput = 0;
-        //sensor.safetyOutput= 1;
         ihd_test.execute();
         assertEquals(0, ihd_test.mean(0,1));
 
@@ -203,8 +201,6 @@ public class IHDTest {
     @Test
     void integerAverageBoundariesResult2 () {
         ihd_test.initialize(sensor);
-        // sensor.originalOutput = 199;
-        //sensor.safetyOutput= 200;
         ihd_test.execute();
         assertEquals(199, ihd_test.mean(199,200));
 

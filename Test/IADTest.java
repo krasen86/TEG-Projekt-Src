@@ -3,6 +3,7 @@ import org.junit.jupiter.api.Test;
 import java.util.Arrays;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNull;
 import static org.mockito.Mockito.doReturn;
 import static org.mockito.Mockito.mock;
 
@@ -21,8 +22,19 @@ class IADTest {
         iad.initialize(ihd1, ihd2);
         IAD iad2 = new IAD(ihd1, ihd2, 0, 0, false, false, 30);
 
+
         assertEquals(iad2, iad);
     }
+
+    @Test
+    void initialize_testingDefaultConstructorGivesNull_expectNull() {
+
+        IAD iad2 = new IAD();
+
+
+        assertNull(iad2.getIhd1());
+    }
+
 
     @Test
     void initialize_testingInitializeMethodTOneSensor_expectFalse() {

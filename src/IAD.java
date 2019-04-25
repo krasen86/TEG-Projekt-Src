@@ -68,6 +68,13 @@ public class IAD {
         data[1] = output2;
         return data;
     }
+
+    public IHD getIhd1() {
+        return ihd1;
+    }
+
+
+
     @Override
     public boolean equals(Object o) {
 

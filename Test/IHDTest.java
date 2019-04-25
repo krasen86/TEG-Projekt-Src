@@ -188,14 +188,12 @@ public class IHDTest {
 //        sensor.originalOutput = 149;
 //        sensor.safetyOutput= 56;
         ihd_test.execute();
-        assertEquals(101, ihd_test.mean(149,56));
+        assertEquals(102, ihd_test.mean(149,56));
 
     }
     @Test
     void integerAverageBoundariesResult () {
         ihd_test.initialize(sensor);
-        // sensor.originalOutput = 0;
-        //sensor.safetyOutput= 1;
         ihd_test.execute();
         assertEquals(0, ihd_test.mean(0,1));
 
@@ -203,17 +201,14 @@ public class IHDTest {
     @Test
     void integerAverageBoundariesResult2 () {
         ihd_test.initialize(sensor);
-        // sensor.originalOutput = 199;
-        //sensor.safetyOutput= 200;
         ihd_test.execute();
         assertEquals(199, ihd_test.mean(199,200));
 
     }
-    @Test
+   @Test
     void sendOutput () {
         ihd_test.initialize(sensor);
-        sensor.originalOutput = 38;
-        sensor.safetyOutput= 59;
+        ihd_test.mean(38,59);
         ihd_test.execute();
         assertEquals(48, ihd_test.getOutput());
 
@@ -231,8 +226,7 @@ public class IHDTest {
         assertArrayEquals(expected, actual);
     }
 
-    @Test
-    void requestInput() {
+    @Test void requestInput() {
         int[] expected = {49, 35, 0};
         int[] actual = new int[3];
         sensor.originalOutput = 49;

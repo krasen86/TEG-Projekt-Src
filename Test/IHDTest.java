@@ -212,10 +212,10 @@ public class IHDTest {
     @Test
     void sendOutput () {
         ihd_test.initialize(sensor);
-        //sensor.originalOutput = 38;
-        //sensor.safetyOutput= 59;
+        sensor.originalOutput = 38;
+        sensor.safetyOutput= 59;
         ihd_test.execute();
-        assertEquals(48, ihd_test.mean(38,59));
+        assertEquals(48, ihd_test.getOutput());
 
     }
 

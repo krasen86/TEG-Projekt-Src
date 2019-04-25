@@ -1,16 +1,20 @@
 import org.junit.jupiter.api.Test;
 
-
-import static org.junit.jupiter.api.Assertions.*;
 import java.util.Arrays;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.mockito.Mockito.doReturn;
+import static org.mockito.Mockito.mock;
 
 
 class IADTest {
     IHD ihd1 = new IHD ();
     IHD ihd2 = new IHD ();
     IAD iad = new IAD (ihd1,ihd2,5,10,true,false,30);
+    IHD mock_ihd1 = mock(IHD.class);
+    IHD mock_ihd2 = mock(IHD.class);
 
-    Sensor sensor= new Sensor ();
+
 
 
     @Test
@@ -33,10 +37,9 @@ IAD iad2 = new IAD(ihd1,ihd2,0,0,false,false,30);
     @Test
     void execute_testingLotsOfBoundaryValues () {
 
-// initiate two ihd to be able to initialize one iad
-        ihd2.initialize(sensor);
-        ihd1.initialize(sensor);
-        iad.initialize(ihd1, ihd2);
+// here i initialize the mocked ihds
+
+        iad.initialize(mock_ihd1, mock_ihd2);
 
 
 // here i create array with data that i send in to test
@@ -70,13 +73,11 @@ IAD iad2 = new IAD(ihd1,ihd2,0,0,false,false,30);
 
         // after initialize inputs are set to zero, here inputs is changed with array content at index t
         for (int t = 0; t < testData.length; t++) {
-            sensor.safetyOutput = testData[t];
-            sensor.originalOutput = testData[t];
 
-            // then i must run both ihd so that the safety and original output is transferred to read1 and read2 which is used in
-            // iad execute that does the analyze
-            ihd1.execute();
-            ihd2.execute();
+            // here i mock the getoutput values with the array input
+
+            doReturn(testData[t]).when(mock_ihd1).getOutput();
+            doReturn(testData[t]).when(mock_ihd2).getOutput();
 
             // then i run the execute which analyze the data
             iad.execute();

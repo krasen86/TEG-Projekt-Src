@@ -24,7 +24,7 @@ class IADTest {
         iad.initialize(ihd1, ihd2);
         IAD iad2 = new IAD(ihd1, ihd2, 0, 0, false, false, 30);
 
-
+        System.out.println ("Test case Sensor with False");
         assertEquals(iad2, iad);
     }
 

@@ -11,7 +11,7 @@ import static org.mockito.Mockito.mock;
 class IADTest {
     IHD ihd1 = new IHD();
     IHD ihd2 = new IHD();
-    IAD iad = new IAD(ihd1, ihd2, 5, 10, true, false, 30);
+    IAD iad = new IAD();
     IHD mock_ihd1 = mock(IHD.class);
     IHD mock_ihd2 = mock(IHD.class);
 
@@ -228,9 +228,13 @@ class IADTest {
 
         }
     }
+
+
+
+
 //Koden saknar nullhantering för denna modul därför är detta test inte genomförbart.
     // code is missing null-handling for this module and therefore this test isnt applicable.
-/*    @Test
+  /*  @Test
     void execute_testingAnalyzeWithNull() {
 
 // here i initialize the mocked ihds
@@ -238,7 +242,7 @@ class IADTest {
         iad.initialize(mock_ihd1, mock_ihd2);
 
 
-        // here i mock the getoutput values with the array input
+        // here i mock the getoutput values two null
 
         doReturn(null).when(mock_ihd1).getOutput();
         doReturn(null).when(mock_ihd2).getOutput();

@@ -3,6 +3,7 @@ import org.junit.jupiter.api.Test;
 import java.util.ArrayList;
 import java.util.Arrays;
 
+import static org.junit.jupiter.api.Assertions.*;
 
 
 public class IntegrationTest {
@@ -19,16 +20,17 @@ public class IntegrationTest {
 
 // initiate two ihd to be able to initialize one iad
 
-        iad1.initialize(ihd1, ihd1);
+        iad1.initialize(ihd1);
         iad2.initialize(ihd1, ihd2);
         iad3.initialize(ihd1,ihd2);
 
         ihd1.initialize(sensor);
         ihd2.initialize(sensor);
-ohd.initialize(iad1, iad2, iad3);
+        ohd.initialize(iad1, iad2, iad3);
 
         // here i create array with data that i send in to test
         int testData[] = {45, -1, 10};
+        ArrayList  arrayen = new ArrayList();
 
 
         for (int t = 0; t < testData.length; t++) {
@@ -48,21 +50,38 @@ ohd.initialize(iad1, iad2, iad3);
             ohd.execute();
             // then i tread the data analyzed with the OHD
             boolean[] print = ohd.getOutput();
-        for(int u=0; u< print.length; u++){
+            for(int u=0; u< print.length; u++){
 
-            System.out.println(print[u]);
+
+               arrayen.add( print[u] );
+
+
+                System.out.println(print[u]);
+            }
+
+
+            }
+
+        ArrayList<Boolean> expectedResult= new ArrayList<>(Arrays.asList(true,true,true,true,true,false,false,false,false,false,true,false,false,false,false));
+
+
+
+
+        assertEquals( arrayen.toString(),expectedResult.toString() );
+
         }
 
 
 
 
-}
-
-
-
-
-        }
     }
+
+
+
+
+
+
+
 
 
 

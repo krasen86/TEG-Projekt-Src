@@ -34,6 +34,7 @@ public class IHD {
 
     //Obtain mean between read1 and read2
     public int getOutput(){
+        mean(read1,read2);
         return mean;
     }
 
